@@ -2,7 +2,7 @@
 This is a movie website theme, developed using HTML, CSS, and JavaScript. 
 
 
------------------------------------------- WEBSİTE SCREEN SHOT ----------------------------------------------
+## WEBSİTE SCREEN SHOT
 
 
 
@@ -17,7 +17,7 @@ This is a movie website theme, developed using HTML, CSS, and JavaScript.
 
 
 
----------------------------------------- USAGE ---------------------------------------------------------------
+## USAGE
 
 ## Installation
 1. Clone the repo
@@ -28,7 +28,7 @@ This is a movie website theme, developed using HTML, CSS, and JavaScript.
 - Dynamic movie listings
 - Easy to customize
 
-#api key (free)
+# api key (free)
 - To fetch movie data, use the API from OMDb.
 
 
