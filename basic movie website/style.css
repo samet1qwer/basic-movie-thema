@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(26, 51, 84);
+    font-family: sans-serif;
+}
+header{
+    background-color: rgb(21, 43, 86);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem;
+}
+header h1{
+    color: #fff;
+    letter-spacing: 5px;
+}
+.search{
+    transition: transform 0.3s ease-in;
+    border: 0;
+    width: 100%;
+    border-radius: 1rem;
+    font-family: inherit;
+    font-size: 1.1rem;
+    color: #fcf9f9;
+    background-color: rgb(33, 55, 66);
+    padding: 0.5rem 1rem;
+    margin-left: 0px;
+}
+.search:focus{
+    outline: none;
+    transform: scale(1.015);
+}
+.search::placeholder{
+    color: #dad5d5;
+}
+main{
+    overflow: hidden;
+    margin: 1rem;
+    display: inline-flex;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+}
+.movie{
+    background-color: rgb(29, 44, 80);
+    width: 300px;
+    margin: 1rem;
+    position: relative;
+    border-radius: 3px;
+    box-shadow: 0 5px 6px rgb(0, 0, 0.25)
+}
+.movie img{
+    width: 100%;
+    border-radius: 5px;
+}
+.movie-info{
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem ;
+    letter-spacing: 1px;
+
+}
+.movie-info span{
+background-color: #192a4f;
+border-radius: 1rem;
+font-size: 90%;
+font-weight: bold;
+}
+.movie-info   span.green{
+    color: green;
+}
+.movie-info span.red{
+    color: red;
+}
+.movie-info span.orange{
+    color: orange;
+}
+.overview{
+    position: absolute;
+    background-color: #566b84;
+    color: #111;
+    padding: 2rem;
+    transform: translateY(110%);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+}
+.movie:hover .overview{
+    transform: translateY(0%);
+}
+.overview h3{
+    margin-bottom: 1.5rem;
+    border-bottom:2px solid rgb(65, 85, 211);
+    width: 50%;
+}
+footer{
+    background-color:  rgb(29, 44, 80);
+    height:20vh;
+    /* width: 100%; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    padding: 1rem;
+}
+footer ul{
+    list-style-type: none;
+
+}
+footer ul li a{
+    text-decoration: none;
+    color: #9794a2;
+    font-size: 95%;
+}
+footer small{
+    font-size: 0.8rem;
+    margin-bottom:1rem ;
+}
+footer ul li a:hover{
+    color: #fff;
+}
+footer h2{
+    color: #fcf9f9;
+    cursor: pointer;
+}
